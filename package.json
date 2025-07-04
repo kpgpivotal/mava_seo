@@ -1,0 +1,19 @@
+{
+  "name": "mava-seo-analyzer",
+  "version": "1.0.0",
+  "description": "An interactive app that displays SEO (meta) tags.",
+  "scripts": {
+    "start": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "keywords": [],
+  "author": "MAVA Partners",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
