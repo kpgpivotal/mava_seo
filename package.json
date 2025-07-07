@@ -1,19 +1,20 @@
+
+
 {
-  "name": "mava-seo-analyzer",
+  "name": "your-backend-proxy",
   "version": "1.0.0",
-  "description": "An interactive app that displays SEO (meta) tags.",
+  "description": "A proxy server to bypass CORS for external URL fetches",
+  "main": "src/server/server.js", // Or whatever your main backend file is named
   "scripts": {
-    "start": "parcel public/index.html",
-    "build": "parcel build public/index.html"
+    "start": "node server.js" // A convenient script to start your server
   },
   "keywords": [],
-  "author": "MAVA Partners",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
-  },
-  "devDependencies": {
+    "cors": "^2.8.5",        // Or a similar version
+    "express": "^4.19.2",     // Or a similar version
+    "node-fetch": "^2.7.0",    // Or a similar version (Note: For Node.js 18+, native fetch is available, but node-fetch is still commonly used for consistency and older versions)
     "parcel": "^2.12.0"
   }
 }
